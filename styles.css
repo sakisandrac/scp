@@ -18,8 +18,9 @@ header {
 
 #box1 {
     font-size: .5em;
+    height: 150px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     margin: auto;
 }
@@ -46,7 +47,6 @@ header {
     justify-content: center;
     margin: 100px auto;
     font-size: .5em;
-    color: black;
 }
 
 button {
@@ -57,11 +57,12 @@ button {
     border: none;
     border-radius: 5px;
     color:#ffffff;
-
+    box-shadow: none;
 }
 
-button:active {
-    box-shadow: none;
+button:hover {
+    background-color: #f7e4bf;
+    color: black;
 }
 
 .hidden {
