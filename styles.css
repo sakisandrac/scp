@@ -67,3 +67,7 @@ button:active {
 .hidden {
     display: none;
 }
+
+#buddha {
+    height: 50px;
+}
