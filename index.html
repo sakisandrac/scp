@@ -13,16 +13,30 @@
       <h2>Which type of message?</h2>
     </section>
     <section id="choose-message">
-        <input type="radio" name="message" id="affirmation">
-        <label for="affirmation"><i>affirmation</i></label>
-        <input type="radio" name="message" id="mantra">
-        <label for="mantra"><i>mantra</i></label>
+        <section id="choose-msg-view">
+          <input type="radio" name="message" id="affirmation">
+          <label for="affirmation"><i>affirmation</i></label>
+          <input type="radio" name="message" id="mantra">
+          <label for="mantra"><i>mantra</i></label>
+        </section>
+        <section id="add-msg-view" class="hidden">
+          <select name="type-select" id="select">
+            <option value="default">Choose a Type:</option>
+            <option value="affirmation">affirmation</option>
+            <option value="mantra">mantra</option>
+          </select>  
+          <input type="text" id="msg">
+        </section>
         <br>
-        <br>
-        <button>Recieve Message</button>
+        <button id="recieve-button">Recieve Message</button>
+        <button id="add-msg-button">Add Message</button>
     </section>
-    <section id="msg-box">
-    
+    <section id="msg-box" >
+      <section id="buddha-view">
+        <img src="https://cdn-icons-png.flaticon.com/512/5389/5389298.png" id="buddha" height="40px">
+      </section>
+      <section id="msg-view" class="hidden">
+      </section>
     </section>
       
 

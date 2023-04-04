@@ -15,6 +15,7 @@ body {
 header {
     font-size: .5em;
 }
+
 #box1 {
     font-size: .5em;
     display: flex;
@@ -61,4 +62,8 @@ button {
 
 button:active {
     box-shadow: none;
+}
+
+.hidden {
+    display: none;
 }
