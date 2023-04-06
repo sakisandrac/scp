@@ -56,7 +56,7 @@ header {
     align-content: space-between;
 }
 
-#login-button {
+#login-button-box {
     height: 40px;
     display: flex;
     align-items: flex-end;
