@@ -75,8 +75,10 @@ function login() {
         addHiddenClass([loginView, loginMsg]);
         removeHiddenClass([whichMsg, chooseMsg]);
         
-        greeting.innerHTML = `Welcome ${username.value}! Which type of Message?`
-    }
+        greeting.innerHTML = `Welcome ${username.value}! Which type of Message?`;
+    } else {
+        alert('Missing credentials! Please log-in to continue');
+    };
 }
 
 // Functions
