@@ -19,6 +19,7 @@ var password = document.querySelector('#password');
 var loginView = document.querySelector('#login-view');
 var loginMsg = document.querySelector('#login-msg');
 var whichMsg = document.querySelector('#which-msg');
+var greeting = document.querySelector('#greeting');
 
 // Event Listeners
 recieveMsgButton.addEventListener('click', recieveMsg);
@@ -73,6 +74,8 @@ function login() {
     if (username.value && password.value){
         addHiddenClass([loginView, loginMsg]);
         removeHiddenClass([whichMsg, chooseMsg]);
+        
+        greeting.innerHTML = `Welcome ${username.value}! Which type of Message?`
     }
 }
 
