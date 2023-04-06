@@ -5,6 +5,7 @@ var mantraRadio = document.querySelector('#mantra');
 var msgBox = document.querySelector('#msg-box');
 var addMsgButton = document.querySelector('#add-msg-button');
 var chooseMsgView = document.querySelector('#choose-msg-view');
+var chooseMsg = document.querySelector('#choose-message')
 var addMsgView = document.querySelector('#add-msg-view');
 var msgInput = document.querySelector('#msg');
 var selectType = document.querySelector('#select');
@@ -12,12 +13,20 @@ var buddhaView = document.querySelector('#buddha-view');
 var msgView = document.querySelector('#msg-view');
 var submitButton = document.querySelector('#submit');
 var mainPageButton = document.querySelector('#main-page');
+var loginButton = document.querySelector('#login-button');
+var username = document.querySelector('#username');
+var password = document.querySelector('#password');
+var loginView = document.querySelector('#login-view');
+var loginMsg = document.querySelector('#login-msg');
+var whichMsg = document.querySelector('#which-msg');
+var greeting = document.querySelector('#greeting');
 
 // Event Listeners
 recieveMsgButton.addEventListener('click', recieveMsg);
 addMsgButton.addEventListener('click', switchToAddMsg);
 submitButton.addEventListener('click', addMsg);
 mainPageButton.addEventListener('click', switchToMainPage);
+loginButton.addEventListener('click', login)
 
 // Event Handlers
 function recieveMsg() {
@@ -59,6 +68,17 @@ function switchToMainPage() {
     addHiddenClass([submitButton, mainPageButton, msgView, addMsgView]);
 
     removeHiddenClass([addMsgButton, recieveMsgButton, buddhaView, chooseMsgView]);
+}
+
+function login() {
+    if (username.value && password.value){
+        addHiddenClass([loginView, loginMsg]);
+        removeHiddenClass([whichMsg, chooseMsg]);
+        
+        greeting.innerHTML = `Welcome ${username.value}! Which type of Message?`;
+    } else {
+        alert('Missing credentials! Please log-in to continue');
+    };
 }
 
 // Functions

@@ -9,10 +9,15 @@
     <header id="title"> 
       <h1>&#10024; Self Care Center &#10024;</h1>
     </header>
-    <section id="box1">
-      <h2>Which type of message?</h2>
+  <section id="message-view">
+    <section id="which-msg" class="box1 hidden">
+      <h2 id="greeting">Welcome, user! Which type of message?</h2>
     </section>
-    <section id="choose-message">
+    <section id="login-msg" class="box1">
+      <h2>Please Log-in</h2>
+    </section>
+
+    <section id="choose-message" class="hidden">
         <section id="choose-msg-view">
           <input type="radio" name="message" id="affirmation">
           <label for="affirmation"><i>affirmation</i></label>
@@ -33,6 +38,20 @@
         <button id="main-page" class="hidden">Back to Main Page</button>
         <button id="submit" class="hidden">Submit</button>
     </section>
+
+  </section>
+  <section id="login-view">
+    <section id="login-inputs">
+      <label>Username:</label>
+        <input type="text" id="username">
+     <label>Password:</label>
+        <input type="password" id="password">
+    </section>
+    <section id="login-button-box">
+      <button id="login-button">Log-in</button>
+    </section>
+  </section>
+
     <section id="msg-box" >
       <section id="buddha-view">
         <img src="./assets/meditate.svg" id="buddha">
