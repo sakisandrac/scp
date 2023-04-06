@@ -16,7 +16,7 @@ header {
     font-size: .5em;
 }
 
-#box1 {
+.box1 {
     font-size: .5em;
     height: 150px;
     display: flex;
@@ -37,6 +37,32 @@ header {
     margin: 0 auto;
 }
 
+#login-view {
+    background-color: #ffffff;
+    color: black;
+    font-size: .5em;
+    border-radius: 10px;
+    width: 400px;
+    height: 60px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#login-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: space-between;
+}
+
+#login-button {
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 #msg-box {
     background-color: #ffffff;
     width: 600px;
@@ -48,6 +74,10 @@ header {
     margin: 100px auto;
     font-size: .5em;
     color: black;
+}
+
+#username, #password {
+    width: 100px;
 }
 
 button {
