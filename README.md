@@ -1,51 +1,24 @@
-# Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
 # Self-Care Center 
 
 ### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+This app is called the Self Care Center. Users can use this app to motivate themselves at the start of the day, or any time they need a litle motivational message. Users can log in and choose to see either an affirmation or a mantra, and after selection has been made a message will appear on the screen. Users may also to choose to add their own message to be displayed and the custom message will also be added to the stored list of messages to be randomly displayed at a later time. 
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+1. Fork this repo
+2. Clone the repo down 
+3. Open index.html on your local machine to see the app
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+<img width="708" alt="Screenshot 2023-04-08 at 4 49 02 PM" src="https://user-images.githubusercontent.com/118419729/230745727-3512ef62-cb84-491a-893a-2324bc0d954a.png">
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+This program took a total of about 6-8 hours to make. I am currently in Mod 1 week 3 of the front end Turing program. 
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+<a href="https://github.com/sakisandrac">Saki Chatphatthanasiri</a>
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+The learning goals for this project were to practice writing HTML, CSS and Javascript and combine them together to make one program. The goal was also to match a given comp as closely as possible while adding features that are in the same style as said comp.
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+This was the first time I built a program from HTML, CSS and Javascript all together with almost no pre-work in the file already. I am really proud of how it turned out. This was also the first time working with a comp and I feel like I matched the style very closely. It was a challenge to build more features on top of what was given to us in the initial picture and style it to be similar, so I am also very pleased with the way this project turned out. The overall displaying of the contents on the page were very challenging at first since I am new to flex box. However, it was much easier to style everything on the page one I wrapped all my contents in "boxes" and used flexbox to move them around the page. 
